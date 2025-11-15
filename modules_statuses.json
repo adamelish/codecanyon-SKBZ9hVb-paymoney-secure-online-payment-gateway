@@ -1,0 +1,17 @@
+{
+    "Addons": true,
+    "BlockIo": false,
+    "Upgrader": true,
+    "TatumIo": true,
+    "Agent": true,
+    "CryptoExchange": true,
+    "Investment": true,
+    "KycVerification": true,
+    "AmlbotVerification": true,
+    "PayMe": true,
+    "Donation": true,
+    "Virtualcard": true,
+    "ManualVirtualcard": true,
+    "StripeVirtualcard": true,
+    "P2pxchange": true
+}

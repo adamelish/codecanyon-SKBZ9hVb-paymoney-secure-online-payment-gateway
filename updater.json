@@ -1,0 +1,39 @@
+{
+	"version": "4.3.6",
+	"supported_versions": [
+		"4.1.1", "4.2.0", "4.2.1", "4.2.2", "4.2.3", "4.3.0", "4.3.1", "4.3.2", "4.3.3","4.3.4", "4.3.5"
+	],
+	"archive": "project.zip",
+	"description": "<div><h5>Improvement:</h5><p>Two-Factor Authentication Code Resend Functionality</p><p>Refactoring JavaScript Code for Fees and Limits</p><p>Display Stripe Error on Card Decline or Invalid Entry</p><h5>Fixing:</h5><p>Resolved Transaction Datatable Error</p><p>Fixed Currency Dropdown Issue in Payment Method and Fees & Limits</p><p>Fixed Version Upgrade Issue </p></div>",
+	"delete": [
+		"public/dist/plugins/bootstrap-toggle-2.2.0",
+		"public/dist/plugins/daterangepicker-3.1",
+		"public/dist/plugins/daterangepicker-3.14.1",
+		"public/dist/plugins/debounce-1.1",
+		"public/dist/plugins/html5-validation-1.0.0",
+		"public/dist/plugins/intl-tel-input-17.0.19",
+		"public/dist/plugins/jquery-validation-1.17.0",
+		"public/dist/plugins/select2-4.1.0-rc.0",
+		"public/dist/libraries/bootstrap-4.6.0", 
+		"public/dist/libraries/bootstrap-5.0.2", 
+		"public/dist/libraries/font-awesome-4.7.0", 
+		"public/dist/libraries/fontawesome-5.15.3", 
+		"public/dist/libraries/fontawesome-6.4.0", 
+		"public/dist/libraries/jquery-2.2.4", 
+		"public/dist/libraries/jquery-3.2.1", 
+		"public/dist/libraries/jquery-3.6.1", 
+		"public/dist/libraries/jquery-ui-1.12.1", 
+		"public/dist/libraries/summernote-0.8.18-dist",
+		"App/DataTables/Admin/AddressProofsDataTable.php",
+		"App/DataTables/Admin/IdentityProofsDataTable.php",
+		"App/Http/Controllers/Admin/AddressProofController.php",
+		"App/Http/Controllers/Admin/IdentityProofController.php",
+		"App/Services/Sms/AddressOrIndentityVerificationSmsService.php",
+		"App/Services/Mail/AddressOrIndentityVerificationMailService.php",
+		"resources/views/admin/verifications",
+		"resources/views/user/setting/address-verify.blade.php",
+		"resources/views/user/setting/identitiy-verify.blade.php",
+		"App/Exports/AddressProofsExport.php",
+		"App/Exports/IdentityProofsExport.php"
+	]
+}
